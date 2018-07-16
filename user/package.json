@@ -1,0 +1,27 @@
+{
+    "name": "docker_microservice_google_cloud",
+    "version": "1.0.0",
+    "description": "API REST using microservice",
+    "main": "index.js",
+    "scripts": {
+        "start": "node /src/user/index.js --use-strict",
+        "dev": "nodemon /src/user/index.js",
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "keyword!": [
+        "microservice",
+        "image",
+        "google cloud",
+        "mysql",
+        "app engine"
+    ],
+    "author": "Carlos Leonardo Camilo Vargas Huamán",
+    "license": "ISC",
+    "dependencies": {
+        "express": "^4.16.3",
+        "mysql": "^2.15.0"
+    },
+    "devDependencies": {
+        "nodemon": "^1.18.2"
+    }
+}
